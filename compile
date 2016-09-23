@@ -1,5 +1,7 @@
 echo "Calling gcc ..."
 
-gcc -Wall -o test1 test1.c -luv
+gcc -Wall -o loopNothing loopNothing.c -luv
+
+gcc -Wall -o idleNothing idleNothing.c -luv
 
 echo "Done."
